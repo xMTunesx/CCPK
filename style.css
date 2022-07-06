@@ -1,0 +1,31 @@
+body,html,body{
+    padding:0;
+    margin:0
+}
+
+
+.logo_img{
+position: relative;
+right: 2.8em;
+width:5.8em;
+height:3em;
+}
+
+#main { 
+    position: fixed; 
+    top: 40%; 
+    right: 200px; 
+ 
+}
+ 
+.messages {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 90%;
+	width: 100%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 10px;
+}
